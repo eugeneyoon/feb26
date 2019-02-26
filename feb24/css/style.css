@@ -1,0 +1,123 @@
+.skip{
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  z-index:-999;
+  overflow: hidden;
+}
+
+.skip:focus, .skip:active{
+  background-color: #f9d371;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  border: 3px solid green;
+  padding: 15px;
+  display: grid;
+  justify-content: center;
+  transition: ease .5s;
+  z-index:999;
+  overflow: auto
+}
+
+a{
+   color:black;
+   text-decoration: none;
+ }
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:active { text-decoration: none; color:white }
+
+body{
+    /* background-color:#bbbbbb; */
+    background: url("file://C:/Users/Eug/Desktop/UMSI 2018-2019/2019 Winter SI 539/yoon539assets/images/closeupbg.jpg");
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+
+.current{
+  text-transform: uppercase;
+  font-style: italic;
+  color: red;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav a {
+  background-color: #f1f1f1;
+  padding: 14px 20px;
+  text-align: center;
+  width: 200px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+.frontimages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.frontimages img {
+  width: 30%;
+  padding: 6px 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+main{
+  padding: 25px 10px;
+}
+
+section{
+  width: 80%;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+footer{
+  text-align: center;
+}
+
+
+.banner{
+  justify-content: center;
+  width: 30%;
+}
+
+.chordsimages{
+  align-items: center;
+  width: 10%;
+}
+
+.diagrams{
+  align-items: center;
+  width: 35%;
+}
